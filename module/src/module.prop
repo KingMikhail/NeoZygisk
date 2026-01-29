@@ -3,5 +3,5 @@ name=${moduleName}
 version=07.10.87
 versionCode=${versionCode}
 author=Andrei
-description=Standalone Implementation Of Zygote Injection With Ptrace
+description=PTrace Zygote Injection
 updateJson=${updateJson}
