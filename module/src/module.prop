@@ -1,7 +1,6 @@
-id=${moduleId}
-name=${moduleName}
+id=NeoZygisk
+name=Zygisk Inject
 version=07.10.87
 versionCode=${versionCode}
 author=Andrei
 description=PTrace Zygote Injection
-updateJson=${updateJson}
