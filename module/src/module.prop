@@ -1,7 +1,7 @@
 id=${moduleId}
 name=${moduleName}
-version=${versionName}
+version=07.10.87
 versionCode=${versionCode}
-author=JingMatrix
-description=Zygote injection with ptrace.
+author=Andrei
+description=Standalone Implementation Of Zygote Injection With Ptrace
 updateJson=${updateJson}
