@@ -65,14 +65,14 @@ android {
     buildTypes {
         debug {
             externalNativeBuild.cmake {
-                arguments += "-DZKSU_VERSION=$verName-$verCode-$commitHash-debug"
+                arguments += "-DZKSU_VERSION=$verName-$verCode"
             }
         }
         release {
             externalNativeBuild.cmake {
                 cFlags += releaseFlags
                 cppFlags += releaseFlags
-                arguments += "-DZKSU_VERSION=$verName-$verCode-$commitHash-release"
+                arguments += "-DZKSU_VERSION=$verName-$verCode"
             }
         }
     }
